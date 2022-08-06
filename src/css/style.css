@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+
+ width: 50%;
+ margin: 50px auto;
+ min-height: 10vw;
+
+ border: 1px solid gray;
+ border-radius: 5px;
+ background-color: rgb(251, 251, 247);
+}
+
+.btn-collapse {
+    width: 15%;
+    height: 25px;
+
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.btn-collapse:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #3A2F28;
+    cursor:pointer;
+}
+.text {
+  overflow: hidden;  
+  transition: all 2s;
+  display: block;
+}
+.block-hidden {
+    margin: 15px;
+    padding: 5px;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
